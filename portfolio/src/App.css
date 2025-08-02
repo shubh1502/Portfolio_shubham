@@ -1,0 +1,57 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto; 
+  /* padding: 2rem;
+  text-align: center; */
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  /* margin: 0;
+  padding: 0; */
+}
+
+.App{
+  padding: 2rem;
+  position: relative;
+}
+
+.profile {
+  margin-top: 0;  
+  background-color: aliceblue;
+  height: auto;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem; 
+}
+
+h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.profile-text {
+  width: 60%;
+  text-align: left;
+  color: #333;
+  font-size: 1 rem;
+  line-height: 1.5;
+}
+.profile-image {
+  margin-left: 4rem;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border: 2px solid #333;
+ 
+}
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
